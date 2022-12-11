@@ -1,5 +1,4 @@
 # healthy_web
-# healthy_web_app
 ## Starting Server
 
 1. Starting this web application by the following command.
@@ -85,14 +84,6 @@ There are the following services in the Food management.
 |Service Name|HTTP Method|URL|Parameter|Summary|
 |:---|:---:|:---|:---|:---|
 |Food List Service|GET|``/api/foods``|Nothing|Get a list of foods.|
-
-## Tests
-Create the unit tests only for the packages such as controller, service, model/dto and util. The test cases is included the regular cases and irregular cases. Please refer to the source code in each packages for more detail.
-
-The command for testing is the following:
-```bash
-go test ./... -v
-```
 
 ## Libraries
 This sample uses the following libraries.
