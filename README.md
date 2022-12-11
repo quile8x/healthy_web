@@ -33,7 +33,6 @@ The follwing figure is the map of this sample project.
   + repository              … Provide a service of database access.
   + service                 … Provide a service of book management.
   + session                 … Provide session management.
-  + test                    … for unit test
   - main.go                 … Entry Point.
 ```
 
@@ -65,14 +64,3 @@ There are the following services in the Food management.
 |Service Name|HTTP Method|URL|Parameter|Summary|
 |:---|:---:|:---|:---|:---|
 |Food List Service|GET|``/api/foods``|Nothing|Get a list of foods.|
-
-## Libraries
-This sample uses the following libraries.
-
-|Library Name|Version|
-|:---|:---:|
-|echo|4.9.0|
-|gorm|1.23.10|
-
-## License
-The License of this sample is *MIT License*.
