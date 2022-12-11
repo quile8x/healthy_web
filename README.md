@@ -69,7 +69,7 @@ There are the following services in the book management.
 |Regist Service|POST|``/api/meals``|Book|Regist a meal data.|
 
 ### Users Management
-There are the following services in the Account management.
+There are the following services in the Users management.
 
 |Service Name|HTTP Method|URL|Parameter|Summary|
 |:---|:---:|:---|:---|:---|
