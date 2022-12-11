@@ -23,7 +23,6 @@ go build main.go
 The follwing figure is the map of this sample project.
 
 ```
-- go-webapp-sample
   + config                  … Define configurations of this system.
   + logger                  … Provide loggers.
   + middleware              … Define custom middleware.
@@ -42,7 +41,7 @@ The follwing figure is the map of this sample project.
 This sample provides 3 services: meals, users, and food management.
 
 ### Meals Management
-There are the following services in the book management.
+There are the following services in the Meals management.
 
 |Service Name|HTTP Method|URL|Parameter|Summary|
 |:---|:---:|:---|:---|:---|
