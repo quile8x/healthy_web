@@ -13,24 +13,6 @@
 1. Login with the following username and password.
     - username : ``test``
     - password : ``test``
-
-### With Web Server
-#### Starting Application Server
-1. Starting this web application by the following command.
-    ```bash
-    go run main.go
-    ```
-1. When startup is complete, the console shows the following message:
-    ```
-    http server started on [::]:8080
-    ```
-#### Starting Web Server
-
-1. Access [http://localhost:3000](http://localhost:3000) in your browser.
-1. Login with the following username and password.
-    - username : ``test``
-    - password : ``test``
-
 ## Build executable file
 Build this source code by the following command.
 ```bash
@@ -66,7 +48,7 @@ There are the following services in the book management.
 |:---|:---:|:---|:---|:---|
 |Get Service|GET|``/api/meal/[MEAL_ID]``|Meal ID|Get a meal data.|
 |List/Search Service|GET|``/api/meal?query=[KEYWORD]&page=[PAGE_NUMBER]&size=[PAGE_SIZE]``|Page, Keyword(Optional)|Get a list of meal.|
-|Regist Service|POST|``/api/meals``|Book|Regist a meal data.|
+|Regist Service|POST|``/api/meals``|Meal|Regist a meal data.|
 
 ### Users Management
 There are the following services in the Users management.
